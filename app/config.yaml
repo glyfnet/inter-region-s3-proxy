@@ -1,0 +1,10 @@
+origins:
+    local:
+        type: s3
+        bucket: grr-sydney.amazon.com
+        prefix: datacube   
+    landsat:
+        scheme: s3
+        bucket: usgs-landsat
+        prefix: collection02
+        requester_pays: requester
