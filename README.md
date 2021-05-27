@@ -10,7 +10,7 @@ the object from the origin s3 bucket to the local s3 bucket, and then returns it
 
 If you would like to try this example yourself, there is a cloud formation stack that can be run within your own AWS account. If your region is not listed, you can modify the launch link and replace with your region.
 
-| Region | Launch Template |
+| Region | Launch Template  |
 |-|-|
 | US East (N. Virginia) *us-east-1* |[![us-east-1 Cloud Formation Template](./images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=inter-region-s3-proxy&templateURL=https://aws-wwps-apj-iss-public-samples.s3-ap-southeast-2.amazonaws.com/inter-region-s3-proxy/aws-autostart-pipeline.yaml)|
 | Asia Pacific (Singapore) *ap-southeast-1* |[![ap-southeast-1 Cloud Formation Template](./images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=inter-region-s3-proxy&templateURL=https://aws-wwps-apj-iss-public-samples.s3-ap-southeast-2.amazonaws.com/inter-region-s3-proxy/aws-autostart-pipeline.yaml)|
